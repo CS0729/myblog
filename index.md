@@ -19,6 +19,7 @@ layout: default
 
 - 编程
 - 技术
+  - [Git](https://github.com/CS0729/myblog/blob/master/_posts/Git.pdf)
 - 生活
 - 阅读
 
