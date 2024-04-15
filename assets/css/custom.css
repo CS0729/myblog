@@ -1,0 +1,139 @@
+/* custom.css */
+
+/* Reset default browser styles */
+html, body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set basic styles for body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    text-align: center; /* 让文字居中 */
+    position: relative; /* 设置相对定位 */
+    min-height: 100vh;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline; /* 让导航栏的文字并排显示 */
+    margin-right: 40px;
+}
+
+.sidebar ul li {
+    margin-right: 2px;
+}
+
+.left-sidebar {
+    display: inline-block; /* 让左侧边栏靠左显示 */
+    vertical-align: top; /* 垂直对齐 */
+    margin-right:20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main content styles */
+main {
+    display: inline-block; /* 让主内容区域能够居中 */
+    text-align: left; /* 将主内容区域的文本左对齐 */
+    overflow-y: auto;
+}
+
+.sidebar {
+    display: inline-block; /* 让左侧边栏靠左显示 */
+    vertical-align: top; /* 垂直对齐 */
+    margin-left:20px;
+}
+
+/* Sidebar styles */
+aside {
+    display: inline-block; /* 让侧边栏区域能够居中 */
+    vertical-align: top; /* 将侧边栏区域垂直居上 */
+    width: 15%;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.sidebar h3 {
+    margin-bottom: 10px;
+}
+
+.sidebar ul,
+.left-sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li,
+.left-sidebar ul li {
+    margin-bottom: 5px;
+}
+
+.sidebar ul li a,
+.left-sidebar ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover,
+.left-sidebar ul li a:hover {
+    color: blue;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: absolute; /* 设置绝对定位 */
+    bottom: 0; /* 确保页脚位于底部 */
+    width: 100%; /* 宽度占满整个视口 */
+}
+
+/* Custom CSS for markdown */
+
+/* Section styles */
+/* Custom CSS for markdown */
+
+/* Section styles */
+.section {
+    border: 2px solid blue; /* 默认边框颜色 */
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 3px;
+}
+
+/* Header styles */
+.section h6 {
+    background-color: #003366; /* 标题背景色 */
+    color: white; /* 标题文字颜色 */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Text styles */
+.section{
+    background-color: black; /* 文字背景色 */
+    color: white; /* 文字颜色 */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
