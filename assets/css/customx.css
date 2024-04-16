@@ -58,19 +58,7 @@ h5 {
 .left-sidebar {
     float:left;
     width:25%;
-    vertical-align: top; /* 垂直对齐 */
-    margin-right:20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-/* Sidebar styles */
-aside {
-    display: inline-block; /* 让侧边栏区域能够居中 */
-    vertical-align: top; /* 将侧边栏区域垂直居上 */
+    margin-right: 20px; 
     margin-top: 20px;
     padding: 10px;
 }
@@ -93,8 +81,7 @@ aside {
 }
 
 main {
-    overflow: hidden; /* 清除浮动 */
-    margin-left: 25%; /* 留出侧边栏的宽度 */
+    margin-left: 30%; /* 留出侧边栏的宽度 */
     padding: 20px; /* 如果需要，可以添加内边距 */
     text-align: left; /* 将主内容区域的文本左对齐 */
     overflow-y: auto;
