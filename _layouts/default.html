@@ -4,10 +4,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
+    <style>
+      .header-image {
+          float:left;
+          margin-right: 0; /* 调整图片和标题之间的间距 */
+      }
+      h1 {
+          display: inline-block; /* Make the <h1> element behave like an inline-block */
+          vertical-align: top; /* Align the <h1> element to the top */
+      }
+      .header-image img {
+          height: 50px; /* 图片高度与父元素相同 */
+          width: auto; /* 图片宽度自动调整以保持纵横比 */
+      }
+      header::after {
+          content: "";
+          display: table;
+          clear: both;
+      }
+  </style>
   </head>
   <body>
     <header>
       <!-- 这里是你的网站标题和导航栏 -->
+      <div class="header-image">
+        <img src="/assets/head.jpg" alt="no">
+    </div>
       <h1>不再寂寞的烟火's blog</h1>
       <nav>
           <ul>
@@ -22,7 +44,7 @@
   </header>
   <aside>
     <div class="left-sidebar">
-        <h4>🫠其它</h4>
+        <h3>🫠其它</h3>
         <br>
         <br>
         <ul>
