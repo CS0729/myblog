@@ -67,7 +67,6 @@ nav ul li a {
 }
 
 main {
-    width:70%;
     display: inline-block; /* 让主内容区域能够居中 */
     text-align: left; /* 将主内容区域的文本左对齐 */
     overflow-y: auto;
