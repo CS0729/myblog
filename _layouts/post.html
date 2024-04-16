@@ -6,16 +6,23 @@
     <link rel="stylesheet" href="{{ "/assets/css/customx.css" | relative_url }}">
     <style>
         .header-image {
-            display: inline-block;
-            vertical-align: top;
+            float:left;
             margin-right: 10px; /* 调整图片和标题之间的间距 */
-            height: 40px; /* 与标题的高度相匹配 */
         }
-
+        h1 {
+            display: inline-block; /* Make the <h1> element behave like an inline-block */
+            vertical-align: top; /* Align the <h1> element to the top */
+        }
         /* 调整图片的大小 */
         .header-image img {
-            height: 100%; /* 图片高度与父元素相同 */
+            height: 40px; /* 图片高度与父元素相同 */
             width: auto; /* 图片宽度自动调整以保持纵横比 */
+        }
+
+        header::after {
+            content: "";
+            display: table;
+            clear: both;
         }
     </style>
 </head>
