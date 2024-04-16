@@ -14,7 +14,7 @@ layout: post
 <h3 id="relax">relax</h3>
   写博客也是繁忙学业外的放松了，自己各种稀奇古怪的想法全能往这里塞，而且往往是想到一个主意就兴奋许久，这个博客撰写也是主打一个兴趣驱动了~
 <br>
-<h3 id="ridiculous>ridiculous">ridiculous</h3>
+<h3 id="ridiculous">ridiculous</h3>
   客观来说如今大学的学习压力确实不小，加上比高中又多了许多事情都得自己解决，大学生常被冠以“精神状态感人”的标签，当然我也一样。有时候甚至只想花半天什么也不做，单纯地发疯。所以也是希望把自己不时出现的一些riciculous甚至crazy的想法记录下来，权当记录这段青春时光。
 <br>
 <h3 id="refresh">refresh</h3>

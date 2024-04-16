@@ -4,10 +4,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <link rel="stylesheet" href="{{ "/assets/css/customx.css" | relative_url }}">
+    <style>
+        .header-image {
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 10px; /* 调整图片和标题之间的间距 */
+            height: 40px; /* 与标题的高度相匹配 */
+        }
+
+        /* 调整图片的大小 */
+        .header-image img {
+            height: 100%; /* 图片高度与父元素相同 */
+            width: auto; /* 图片宽度自动调整以保持纵横比 */
+        }
+    </style>
 </head>
 <body>
     <header>
         <!-- 这里是你的网站标题和导航栏 -->
+        <div class="header-image">
+            <img src="/assets/head.jpg" alt="no">
+        </div>
         <h1>不再寂寞的烟火's blog</h1>
         <nav>
             <ul>
@@ -22,15 +39,22 @@
     </header>
 
     <div class="left-sidebar">
-        <h2>✨目录</h2>
+        <h3>✅目录</h3>
         <br>
         <br>
         <ul>
             <li><a href="https://cs0729.github.io">主页</a></li>
             <br>
-            <li><a href="https://cs0729.github.io/2024/04/15/blogreason.html">为什么写博客</a></li>
+            <li><a href="#record">record</a></li>
             <br>
-            <li><a href="https://cs0729.github.io/2024/04/15/wechatname.html">关于不再寂寞的烟火</a></li>
+            <li><a href="#reflect">reflect</a></li>
+            <br>
+            <li><a href="#relax">relax</a></li>
+            <br>
+            <li><a href="#ridiculous">ridiculous</a></li>
+            <br>
+            <li><a href="#refresh">refresh</a></li>
+            <br>
         </ul>
     </div>
 
