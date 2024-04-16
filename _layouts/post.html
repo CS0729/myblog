@@ -13,7 +13,10 @@
             display: inline-block; /* Make the <h1> element behave like an inline-block */
             vertical-align: top; /* Align the <h1> element to the top */
         }
-        /* 调整图片的大小 */
+        .header-image {
+            float:right;
+            margin-left: 10px; /* 调整图片和标题之间的间距 */
+        }
         .header-image img {
             height: 40px; /* 图片高度与父元素相同 */
             width: auto; /* 图片宽度自动调整以保持纵横比 */
@@ -33,6 +36,9 @@
             <img src="/assets/head.jpg" alt="no">
         </div>
         <h1>不再寂寞的烟火's blog</h1>
+        <div class="header-image">
+            <img src="/assets/head.jpg" alt="no">
+        </div>
         <nav>
             <ul>
               <li><a href="https://cs0729.github.io/2024/04/15/Technique.html">Technique</a></li>
