@@ -72,44 +72,28 @@ main {
     overflow-y: auto;
 }
 
-.right-sidebar {
-    display: inline-block; /* 让左侧边栏靠左显示 */
-    vertical-align: top; /* 垂直对齐 */
-    margin-left:20px;
-    margin-bottom: 10px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
 /* Sidebar styles */
 aside {
     display: inline-block; /* 让侧边栏区域能够居中 */
     vertical-align: top; /* 将侧边栏区域垂直居上 */
-    width: 15%;
+    width: 25%;
     margin-top: 20px;
     padding: 10px;
 }
 
-.right-sidebar ul,
 .left-sidebar ul {
     list-style-type: none;
 }
 
-.right-sidebar ul li,
 .left-sidebar ul li {
     margin-bottom: 5px;
 }
 
-.right-sidebar ul li a,
 .left-sidebar ul li a {
     color: #333;
     text-decoration: none;
 }
 
-.right-sidebar ul li a:hover,
 .left-sidebar ul li a:hover {
     color: blue;
 }

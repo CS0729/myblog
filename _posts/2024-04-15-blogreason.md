@@ -2,7 +2,7 @@
 layout: post
 ---
 
-<h2 id="Why I start writing the blog">Why I start writing the blog</h2>
+<h2 id="Why I start writing the blog">**🌟** Why I start writing the blog</h2>
 <br>
 
 <h3 id="record">record</h3>
