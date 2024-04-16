@@ -5,8 +5,7 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, li {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.5;
-    text-align: center; 
-    position: relative; /* 设置相对定位 */
+    text-align: left; 
     min-height: 100vh;
 }
 header {
