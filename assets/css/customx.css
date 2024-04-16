@@ -1,105 +1,40 @@
-/* custom.css */
-
-/* Reset default browser styles */
-html, body, h1, h2, h3, h4, h5, h6, p, ul, li {
+body {
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    min-height: 100vh; /* 使得body至少与视口一样高 */
+    font-family: Arial, sans-serif; /* 设置默认字体 */
 }
 
-/* Set basic styles for body */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    text-align: center; /* 让文字居中 */
-    position: relative; /* 设置相对定位 */
-    min-height: 100vh;
+#why-i-start-writing-the-blog, #record, #reflect, #relax, #注-这个markdown最初撰写于2024416当时是凌晨四点半作者正因为刚构思好自己的博客而兴奋得睡不着觉 {
+    text-align: left; /* 确保文本左对齐 */
+    width: 600px; /* 设置一个固定宽度，可根据需求调整 */
 }
 
-/* Header styles */
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+h1 {
+    font-size: 24px; /* 大标题字体大小 */
+    color: #333; /* 标题颜色 */
 }
 
-header h1 {
-    margin: 0;
+h2 {
+    font-size: 20px; /* 小标题字体大小 */
+    color: #666; /* 小标题颜色 */
 }
 
-nav ul {
-    list-style-type: none;
+p {
+    font-size: 16px; /* 段落字体大小 */
+    color: #444; /* 段落文字颜色 */
+    line-height: 1.6; /* 行高 */
 }
 
-nav ul li {
-    display: inline; /* 让导航栏的文字并排显示 */
-    margin-right: 40px;
+h5 {
+    font-size: 12px; /* 注释字体大小 */
+    color: #999; /* 注释颜色 */
 }
 
-.sidebar ul li {
-    margin-right: 2px;
-}
 
-.container {
-    display: inline-block; /* 让容器内元素居中 */
-    position: relative; /* 设置相对定位 */
-    width: 80%; /* 适当的宽度 */
-}
-
-.left-sidebar, .main, .sidebar {
-    display: inline-block; /* 让左侧边栏、主内容区域和侧边栏居中显示 */
-    vertical-align: top; /* 垂直对齐 */
-}
-
-/* Main content styles */
-.main {
-    width: 70%; /* 主内容区域的宽度 */
-    height: 100vh; /* 主内容区域的高度 */
-    overflow-y: auto; /* 允许内容溢出时滚动 */
-    text-align: left; /* 将主内容区域的文本左对齐 */
-}
-
-/* Sidebar styles */
-.left-sidebar, .sidebar {
-    width: 15%; /* 侧边栏的宽度 */
-    margin-top: 20px;
-    padding: 10px;
-}
-
-/* Footer styles */
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    position: absolute; /* 设置绝对定位 */
-    bottom: 0; /* 确保页脚位于底部 */
-    width: 100%; /* 宽度占满整个视口 */
-}
-
-/* Custom CSS for markdown */
-
-/* Section styles */
-.section {
-    border: 2px solid blue; /* 默认边框颜色 */
-    border-radius: 5px;
-    padding: 10px;
-    margin-bottom: 20px;
-}
-
-/* Header styles */
-.section h6 {
-    background-color: #003366; /* 标题背景色 */
-    color: white; /* 标题文字颜色 */
-    padding: 10px;
-    border-radius: 5px;
-}
-
-/* Text styles */
-.section {
-    background-color: black; /* 文字背景色 */
-    color: white; /* 文字颜色 */
-    padding: 10px;
-    border-radius: 5px;
-}
 
 
 

@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 # Why I start writing the blog
 <br>
 
