@@ -15,7 +15,7 @@ header {
     padding: 20px;
 }
 
-header h3 {
+header h1 {
     margin: 0;
 }
 nav ul {
@@ -37,27 +37,27 @@ main {
     overflow-y: auto;
 }
 h2 {
-    font-size: 24px; /* 大标题字体大小 */
+    font-size: 30px; /* 大标题字体大小 */
     color: blue; /* 标题颜色 */
     margin-top:20px;
     margin-bottom:5px;
 }
 
 h3 {
-    font-size: 20px; /* 小标题字体大小 */
+    font-size: 24px; /* 小标题字体大小 */
     color: #666; /* 小标题颜色 */
     margin-top:20px;
     margin-bottom:15px;
 }
 
 p {
-    font-size: 16px; /* 段落字体大小 */
+    font-size: 20px; /* 段落字体大小 */
     color: #444; /* 段落文字颜色 */
     line-height: 1.6; /* 行高 */
 }
 
 h5 {
-    font-size: 12px; /* 注释字体大小 */
+    font-size: 16px; /* 注释字体大小 */
     color: #999; /* 注释颜色 */
     margin-top:15px;
 }
