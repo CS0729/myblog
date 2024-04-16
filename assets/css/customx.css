@@ -1,18 +1,17 @@
-body {
+html, body, h1, h2, h3, h4, h5, h6, p, ul, li {
     margin: 0;
     padding: 0;
-    display: flex;
+}
+body {
+    display: flex; /* 添加这一行使得justify-content和align-items生效 */
+    flex-direction: column; /* 确保内容是垂直方向排列 */
+    margin: 0;
+    padding: 0;
     justify-content: center; /* 水平居中 */
     align-items: center; /* 垂直居中 */
     min-height: 100vh; /* 使得body至少与视口一样高 */
     font-family: Arial, sans-serif; /* 设置默认字体 */
 }
-
-#why-i-start-writing-the-blog, #record, #reflect, #relax, #注-这个markdown最初撰写于2024416当时是凌晨四点半作者正因为刚构思好自己的博客而兴奋得睡不着觉 {
-    text-align: left; /* 确保文本左对齐 */
-    width: 600px; /* 设置一个固定宽度，可根据需求调整 */
-}
-
 h1 {
     font-size: 24px; /* 大标题字体大小 */
     color: #333; /* 标题颜色 */
