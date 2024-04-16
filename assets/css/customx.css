@@ -56,7 +56,8 @@ h5 {
 
 /*侧边栏*/
 .left-sidebar {
-    display: inline-block; /* 让左侧边栏靠左显示 */
+    float:left;
+    width:25%;
     vertical-align: top; /* 垂直对齐 */
     margin-right:20px;
 }
@@ -66,17 +67,10 @@ nav ul li a {
     text-decoration: none;
 }
 
-main {
-    display: inline-block; /* 让主内容区域能够居中 */
-    text-align: left; /* 将主内容区域的文本左对齐 */
-    overflow-y: auto;
-}
-
 /* Sidebar styles */
 aside {
     display: inline-block; /* 让侧边栏区域能够居中 */
     vertical-align: top; /* 将侧边栏区域垂直居上 */
-    width: 25%;
     margin-top: 20px;
     padding: 10px;
 }
@@ -97,6 +91,16 @@ aside {
 .left-sidebar ul li a:hover {
     color: blue;
 }
+
+main {
+    overflow: hidden; /* 清除浮动 */
+    margin-left: 25%; /* 留出侧边栏的宽度 */
+    padding: 20px; /* 如果需要，可以添加内边距 */
+    text-align: left; /* 将主内容区域的文本左对齐 */
+    overflow-y: auto;
+}
+
+
 
 
 
