@@ -28,13 +28,6 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
 }
-
-main {
-    width:70%;
-    display: inline-block; /* 让主内容区域能够居中 */
-    text-align: left; /* 将主内容区域的文本左对齐 */
-    overflow-y: auto;
-}
 h2 {
     font-size: 30px; /* 大标题字体大小 */
     color: blue; /* 标题颜色 */
@@ -59,6 +52,66 @@ h5 {
     font-size: 16px; /* 注释字体大小 */
     color: #999; /* 注释颜色 */
     margin-top:25px;
+}
+
+/*侧边栏*/
+.left-sidebar {
+    display: inline-block; /* 让左侧边栏靠左显示 */
+    vertical-align: top; /* 垂直对齐 */
+    margin-right:20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    width:70%;
+    display: inline-block; /* 让主内容区域能够居中 */
+    text-align: left; /* 将主内容区域的文本左对齐 */
+    overflow-y: auto;
+}
+
+.right-sidebar {
+    display: inline-block; /* 让左侧边栏靠左显示 */
+    vertical-align: top; /* 垂直对齐 */
+    margin-left:20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Sidebar styles */
+aside {
+    display: inline-block; /* 让侧边栏区域能够居中 */
+    vertical-align: top; /* 将侧边栏区域垂直居上 */
+    width: 15%;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.right-sidebar ul,
+.left-sidebar ul {
+    list-style-type: none;
+}
+
+.right-sidebar ul li,
+.left-sidebar ul li {
+    margin-bottom: 5px;
+}
+
+.right-sidebar ul li a,
+.left-sidebar ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.right-sidebar ul li a:hover,
+.left-sidebar ul li a:hover {
+    color: blue;
 }
 
 
