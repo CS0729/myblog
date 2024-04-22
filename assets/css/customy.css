@@ -87,13 +87,13 @@ main {
 .right-sidebar {
     display: inline-block;
     vertical-align: top;
-    margin-left: 20px; 
+    margin-right:0;
 }
 
 aside {
     display: inline-block; /* 让侧边栏区域能够居中 */
     vertical-align: top; /* 将侧边栏区域垂直居上 */
-    width: 20%;
+    width: 15%;
     margin-top: 20px;
     padding: 10px;
 }
