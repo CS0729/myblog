@@ -55,17 +55,15 @@ h5 {
 
 /*侧边栏*/
 .left-sidebar {
-    display: inline-block;
+    float:left;
     vertical-align: top;
     margin-left: 0; 
-    text-align:center;
 }
 
 main {
     display: inline-block; /* 添加float:left来确保它不会被侧边栏下方的内容撑开 */
     text-align: left; /* 将主内容区域的文本左对齐 */
     overflow-y: auto;
-    width:70%;
 }
 
 .left-sidebar ul {
