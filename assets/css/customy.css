@@ -56,7 +56,7 @@ h5 {
 
 /*侧边栏*/
 .left-sidebar {
-    display: inline-block;
+    float:left;
     vertical-align: top;
     margin-left: 0; 
 }
