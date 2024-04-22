@@ -93,9 +93,10 @@ main {
 aside {
     display: inline-block; /* 让侧边栏区域能够居中 */
     vertical-align: top; /* 将侧边栏区域垂直居上 */
-    width: 15%;
+    width: 20%;
     margin-top: 20px;
     padding: 10px;
+    text-align: center;
 }
 
 .right-sidebar ul {
