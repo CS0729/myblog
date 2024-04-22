@@ -87,6 +87,9 @@ main {
     text-align: left; /* 将主内容区域的文本左对齐 */
     overflow-y: auto;
 }
+.hover-link:hover {
+    color: blue; /* 设置鼠标悬浮时的文字颜色为蓝色 */
+}
 
 
 
