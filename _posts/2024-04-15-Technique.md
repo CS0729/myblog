@@ -17,6 +17,7 @@ layout: Technique
 <h3 id="翻墙">🗝️翻墙</h3>
    <a href="https://letslook.net/super/ss" class="hover-link">此链接</a>🪜出现在这里纯属意外，与本人毫无关联！
 <br>
+<br>
 <h2 id="famous sentence">💡Some famous ideas and thoughts in Computer Science</h2>
 <br>
 <h3> ⚡"Your most unhappy customers are your greatest source of learning."    ————Bill Gates:</h3>
