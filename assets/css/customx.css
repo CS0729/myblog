@@ -82,8 +82,9 @@ h5 {
 }
 
 main {
-    margin-left: 20%; /* 留出侧边栏的宽度 */
-    margin-right:20%;
+    float: left; /* 添加float:left来确保它不会被侧边栏下方的内容撑开 */
+    width: calc(70% - 40px);
+    margin-top:20px;
     padding: 20px; /* 如果需要，可以添加内边距 */
     text-align: left; /* 将主内容区域的文本左对齐 */
     overflow-y: auto;
@@ -92,7 +93,7 @@ main {
 .right-sidebar {
     float:right;
     width:15%;
-    margin-right: 20px; 
+    margin-left: 20px; 
     margin-top: 20px;
     padding: 10px;
     text-align:center;
