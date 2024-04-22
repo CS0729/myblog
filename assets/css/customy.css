@@ -1,0 +1,116 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    text-align: left; 
+    min-height: 100vh;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align:center;
+}
+header h1 {
+    margin:0;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline; /* 让导航栏的文字并排显示 */
+    margin-right: 40px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+h2 {
+    font-size: 30px; /* 大标题字体大小 */
+    color: blue; /* 标题颜色 */
+    margin-top:30px;
+    margin-bottom:5px;
+}
+
+h3 {
+    font-size: 24px; /* 小标题字体大小 */
+    color: #666; /* 小标题颜色 */
+    margin-top:30px;
+    margin-bottom:25px;
+}
+
+p {
+    font-size: 20px; /* 段落字体大小 */
+    color: #444; /* 段落文字颜色 */
+    line-height: 1.6; /* 行高 */
+}
+
+h5 {
+    font-size: 16px; /* 注释字体大小 */
+    color: #999; /* 注释颜色 */
+    margin-top:25px;
+}
+
+/*侧边栏*/
+.left-sidebar {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px; 
+}
+
+.left-sidebar ul {
+    list-style-type: none;
+}
+
+.left-sidebar ul li {
+    margin-bottom: 5px;
+}
+
+.left-sidebar ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.left-sidebar ul li a:hover {
+    color: blue;
+}
+
+main {
+    display: inline-block; /* 添加float:left来确保它不会被侧边栏下方的内容撑开 */
+    text-align: left; /* 将主内容区域的文本左对齐 */
+    overflow-y: auto;
+}
+
+.right-sidebar {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px; 
+}
+
+aside {
+    display: inline-block; /* 让侧边栏区域能够居中 */
+    vertical-align: top; /* 将侧边栏区域垂直居上 */
+    width: 15%;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.right-sidebar ul {
+    list-style-type: none;
+}
+
+.right-sidebar ul li {
+    margin-bottom: 5px;
+}
+
+.right-sidebar ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.hover-link:hover {
+    color: blue; /* 设置鼠标悬浮时的文字颜色为蓝色 */
+}
