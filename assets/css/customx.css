@@ -57,7 +57,6 @@ h5 {
 /*侧边栏*/
 .left-sidebar {
     float:left;
-    width:15%;
     margin-right: 20px; 
     margin-top: 20px;
     padding: 10px;
@@ -90,27 +89,6 @@ main {
     overflow-y: auto;
 }
 
-.right-sidebar {
-    float:right;
-    width:15%;
-    margin-left: 20px; 
-    margin-top: 20px;
-    padding: 10px;
-    text-align:center;
-}
-
-.right-sidebar ul {
-    list-style-type: none;
-}
-
-.right-sidebar ul li {
-    margin-bottom: 5px;
-}
-
-.right-sidebar ul li a {
-    color: #333;
-    text-decoration: none;
-}
 
 .hover-link:hover {
     color: blue; /* 设置鼠标悬浮时的文字颜色为蓝色 */
