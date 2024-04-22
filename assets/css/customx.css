@@ -52,16 +52,16 @@ h5 {
     color: #999; /* 注释颜色 */
     margin-top:25px;
 }
-
+.container {
+    display: flex;
+}
 /*侧边栏*/
 .left-sidebar {
-    float:left;
     vertical-align: top;
     margin-left: 0; 
 }
 
-main {
-    display: inline-block; /* 添加float:left来确保它不会被侧边栏下方的内容撑开 */
+main { 
     text-align: left; /* 将主内容区域的文本左对齐 */
     overflow-y: auto;
 }
