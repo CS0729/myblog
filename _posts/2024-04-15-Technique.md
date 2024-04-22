@@ -20,12 +20,7 @@ layout: Technique
 <h2 id="famous sentence">💡Some famous ideas and thoughts in Computer Science</h2>
 <br>
 <h3> ⚡"Your most unhappy customers are your greatest source of learning."    ————Bill Gates:</h3>
-<br>
 <h3> ⚡"We can only see a short distance ahead, but we can see plenty there that needs to be done."   ————Alan Turing</h3>
-<br>
 <h3> ⚡"The most dangerous phrase in the language is, 'We've always done it this way.'"   ————Grace Hopper</h3>
-<br>
 <h3> ⚡"Talk is cheap. Show me the code."     ————Linus Torvalds</h3>
-<br>
 <h3> ⚡"When in doubt, use brute force."   ————Ken Thompson</h3>
-<br>
