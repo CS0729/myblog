@@ -82,7 +82,6 @@ h5 {
 
 main {
     float: left; /* 添加float:left来确保它不会被侧边栏下方的内容撑开 */
-    width: 50%;
     margin-top:20px;
     padding: 20px; /* 如果需要，可以添加内边距 */
     text-align: left; /* 将主内容区域的文本左对齐 */

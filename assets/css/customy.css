@@ -85,7 +85,7 @@ main {
 }
 
 .right-sidebar {
-    display: inline-block;
+    float:right;
     vertical-align: top;
     margin-right:0;
 }
