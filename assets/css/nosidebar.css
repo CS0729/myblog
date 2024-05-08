@@ -53,10 +53,6 @@ h5 {
     color: #999; /* 注释颜色 */
     margin-top:25px;
 }
-.container {
-    display: flex;
-}
-
 main { 
     width:70%;
     padding-left: 15%;
