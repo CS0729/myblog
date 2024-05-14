@@ -1,0 +1,3 @@
+---
+layout: Technique_Latex
+---
