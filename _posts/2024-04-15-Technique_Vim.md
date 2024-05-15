@@ -1,9 +1,12 @@
 ---
 layout: Technique_Vim
 ---
+<br>
+<br>
 
 # Vim 常用命令
-
+<br>
+<br>
 - 光标移动：hjkl : h向左l向右j向下k向上
 - x 删除光标所在位置字符 ； i 插入光标所在位置字符
 - A添加文本
